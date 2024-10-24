@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header  */
+.logo img {
+    width: 100%;
+}
+.logo {
+    width: 100px;
+}
+.header {
+    display: flex;
+    padding: 10px 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header a {
+    text-decoration: none;
+    color: black;
+}
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+/* banner  */
+.banner img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+
+/* shop  */
+.shop {
+    margin: 30px 0;
+}
+.shop h2 {
+    text-align: center;
+    font-size: 36px;
+    padding: 0 0 20px 0;
+}
+
+.card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 0 15px 0;
+    border: 0.2px solid green;
+}
+.card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+}
+.card h3 {
+    text-align: center;
+}
+.card p {
+    padding: 0 5px;
+}
+.card .btn {
+    padding: 10px 15px;
+    width: 100px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+.card .btn:hover {
+    border: 1px solid rgb(151, 190, 151);
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* map-feedback  */
+.map-feedback {
+    margin: 30px 0;
+    padding: 30px 0;
+}
+.map-feedback h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* feedback  */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#sub {
+    padding: 10px 0;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+
+
+/* footer  */
+.footer {
+    text-align: center;
+    padding: 10px 0;
+}
